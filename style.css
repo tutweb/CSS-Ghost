@@ -1,8 +1,8 @@
-html { 
+html{ 
 	background: #066968; 
 	padding: 1em; 
 }
-body { 
+body{ 
 	border: 5px dotted #eee; 
 	color: #fff; 
 	font: 3em/1.5 sans-serif; 
@@ -10,7 +10,7 @@ body {
 	width: 10em; 
 	margin: 0 auto; 
 }
-body::after { 
+body::after{ 
 	content: 'Hallo Saya TWD, saya dibuat tanpa script, Silahkan "View Source" untuk melihat kode :) , kok bisa kosong ya ?'; 
-	/* This needs to be on the ::after (and not just on `body`) for it to work in Firefox 3.6.x. */ 
+	/* Support di Firefox 3.6.x. */ 
 }

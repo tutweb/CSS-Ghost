@@ -1,1 +1,1 @@
-<?php header('Link: <style.css>;rel=stylesheet'); ?>
+<?php header('Link: <style.css>; rel=stylesheet');?>
