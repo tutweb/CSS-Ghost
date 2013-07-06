@@ -1,0 +1,16 @@
+html { 
+	background: #066968; 
+	padding: 1em; 
+}
+body { 
+	border: 5px dotted #eee; 
+	color: #fff; 
+	font: 3em/1.5 sans-serif; 
+	padding: 1em; 
+	width: 10em; 
+	margin: 0 auto; 
+}
+body::after { 
+	content: 'Hallo Saya TWD, saya dibuat tanpa script, Silahkan "View Source" untuk melihat kode :) , kok bisa kosong ya ?'; 
+	/* This needs to be on the ::after (and not just on `body`) for it to work in Firefox 3.6.x. */ 
+}
